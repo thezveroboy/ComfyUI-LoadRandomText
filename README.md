@@ -2,6 +2,8 @@
 
 ComfyUI custom node that loads a random text file from a folder (optionally including subfolders) and outputs the text as STRING.
 
+![comfy-csm](https://github.com/thezveroboy/ComfyUI-LoadRandomText/raw/main/picture.jpg)
+
 ## English
 Load Random Text is a ComfyUI node pack that instantly picks a text file from a folder and outputs its contents straight into your workflow—perfect for prompts, negative prompts, styles, scene lists, or any text-driven automation. It turns large prompt libraries into a high-variation generation engine, so every run feels fresh without manual scrolling or copy-pasting.
 ​
@@ -34,6 +36,7 @@ Load Random Text — набор нод для ComfyUI, которые мгнов
 ### Outputs
 - text (STRING)
 - text_path (STRING)
+
 
 
 
