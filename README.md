@@ -4,6 +4,12 @@ ComfyUI custom nodes that load a random text file from a folder (optionally incl
 
 ![comfy-csm](https://github.com/thezveroboy/ComfyUI-LoadRandomText/raw/main/picture.jpg)
 
+I've been studying randomness and random selection for quite a while now (and chaos theory, where would we be without it). I think it's no secret to anyone that true randomness doesn't exist in the world of electronics. Nevertheless, we must strive for it.
+
+I really don't like the current randomness implementations in ComfyUI—they work extremely poorly. All available random nodes are implemented without evaluating their actual randomness, or even pseudo-randomness.
+
+That's why I conducted a small study and created three variants of randomness for selecting text files.
+
 ## English
 Load Random Text is a ComfyUI node pack that instantly picks a text file from a folder and outputs its contents straight into your workflow—perfect for prompts, negative prompts, styles, scene lists, or any text-driven automation. It turns large prompt libraries into a high-variation generation engine, so every run feels fresh without manual scrolling or copy-pasting.
 ​
@@ -36,6 +42,7 @@ Load Random Text — набор нод для ComfyUI, которые мгнов
 ### Outputs
 - text (STRING)
 - text_path (STRING)
+
 
 
 
