@@ -6,9 +6,9 @@ ComfyUI custom nodes that load a random text file from a folder (optionally incl
 
 I've been studying randomness and random selection for quite a while now (and chaos theory, where would we be without it). I think it's no secret to anyone that true randomness doesn't exist in the world of electronics. Nevertheless, we must strive for it.
 
-These nodes are primarily designed for running texts from datasets through newly trained LoRAs to see how they perform on fresh training. They're especially useful when there are tons of descriptions but no time to manually cycle through prompts. Current wildcard implementations work extremely poorly in terms of randomness and don't suit me due to their low variance.
+These nodes are primarily designed for running texts from datasets through newly trained LoRAs to see how they perform on fresh training. They're especially useful when there are tons of descriptions but no time to manually cycle through prompts.
 
-I really don't like the current randomness implementations in ComfyUI—they work extremely poorly. All available random nodes are implemented without evaluating their actual randomness, or even pseudo-randomness.
+Current wildcard implementations work extremely poorly in terms of randomness and don't suit me due to their low variance. All available random nodes are implemented without evaluating their actual randomness, or even pseudo-randomness.
 
 That's why I conducted a small study and created three variants of randomness for selecting text files.
 
@@ -44,6 +44,7 @@ Load Random Text — набор нод для ComfyUI, которые мгнов
 ### Outputs
 - text (STRING)
 - text_path (STRING)
+
 
 
 
