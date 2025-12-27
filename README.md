@@ -1,6 +1,6 @@
 # ComfyUI-LoadRandomText
 
-ComfyUI custom node that loads a random text file from a folder (optionally including subfolders) and outputs the text as STRING.
+ComfyUI custom nodes that load a random text file from a folder (optionally including subfolders) and outputs the text as STRING.
 
 ![comfy-csm](https://github.com/thezveroboy/ComfyUI-LoadRandomText/raw/main/picture.jpg)
 
@@ -36,6 +36,7 @@ Load Random Text — набор нод для ComfyUI, которые мгнов
 ### Outputs
 - text (STRING)
 - text_path (STRING)
+
 
 
 
